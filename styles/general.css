@@ -1,0 +1,9 @@
+p {
+    margin: 0 auto 0 auto;
+  }
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 65px;
+    background-color: rgb(201, 201, 201);
+}

@@ -1,0 +1,58 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(145, 145, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 40px;
+    margin: 0;
+    padding: 0 15px;
+}
+.nav-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin: 0;
+}
+.nav-button-icon {
+    height: 60%;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
+.nav-button-icon:hover {
+    height: 120%;
+}
+.tooltip {
+    position: absolute;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -25px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.nav-button-container:hover .tooltip {
+    opacity: 1;
+}
+.separator {
+    margin: 0 15px;
+}
