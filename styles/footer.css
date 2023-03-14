@@ -1,0 +1,12 @@
+footer {   
+  box-shadow: 0 0 10px black ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 0 0;
+  font-size: 12px;
+}
+
+#impressum {
+  padding: 10px;
+}
