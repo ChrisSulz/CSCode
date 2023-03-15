@@ -1,10 +1,16 @@
 .logo-container {
   height: 100px;
-  padding-left: 20px;
+  padding-left: 30px;
   display: flex;
   align-items: center;
+  color: rgb(255, 255, 255);
 }
 
-.logo-container img {
-  height: 60%;
+.logo-container p {
+  font-size: 25px;
+  font-style: italic;
+  padding: 5px 15px 5px 15px;
+  box-shadow: 0 0 10px rgb(16, 76, 255);
+  text-shadow: 0 0 20px rgb(16, 76, 255);
+  border-radius: 20px;
 }
