@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="226.45984mm"
+   height="45.411533mm"
+   viewBox="0 0 226.45984 45.411533"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="cs-code-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2573366"
+     inkscape:cx="348.75306"
+     inkscape:cy="207.18397"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="-9"
+     inkscape:window-y="164"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="2-line"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none"
+     transform="translate(-3.1858481,-4.4399056)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.8744px;font-family:'OCR A Extended';-inkscape-font-specification:'OCR A Extended';letter-spacing:-9.26042px;fill:#000000;stroke-width:0.727857"
+       x="-2.3431478"
+       y="51.660915"
+       id="text505"><tspan
+         sodipodi:role="line"
+         id="tspan503"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'OCR A Extended';-inkscape-font-specification:'OCR A Extended';fill:#000000;stroke-width:0.727857"
+         x="-2.3431478"
+         y="51.660915">CS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.8744px;font-family:'OCR A Extended';-inkscape-font-specification:'OCR A Extended';letter-spacing:-9.26042px;fill:#000000;stroke-width:0.727857"
+       x="70.594131"
+       y="98.427017"
+       id="text505-8"><tspan
+         sodipodi:role="line"
+         id="tspan503-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'OCR A Extended';-inkscape-font-specification:'OCR A Extended';fill:#000000;stroke-width:0.727857"
+         x="70.594131"
+         y="98.427017">CODE</tspan></text>
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect611"
+       width="4.1155219"
+       height="95.987778"
+       x="81.001358"
+       y="-12.818743"
+       ry="1.5110351"
+       rx="0.92577678"
+       transform="rotate(12.390721)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="1-line"
+     transform="translate(-3.1858481,-4.4399056)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.8744px;font-family:'OCR A Extended';-inkscape-font-specification:'OCR A Extended';letter-spacing:-9.26042px;display:inline;fill:#000000;stroke-width:0.727857"
+       x="-7.1989737"
+       y="45.377415"
+       id="text505-7"
+       transform="translate(3.1858481,4.4399056)"><tspan
+         sodipodi:role="line"
+         id="tspan503-31"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'OCR A Extended';-inkscape-font-specification:'OCR A Extended';fill:#000000;stroke-width:0.727857"
+         x="-7.1989737"
+         y="45.377415">CS/CODE </tspan></text>
+  </g>
+</svg>
