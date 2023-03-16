@@ -1,8 +1,7 @@
 main {
-  box-shadow: 0 0 10px rgb(16, 76, 255);
-  margin: 30px 75px 0 75px;
-  padding: 20px;
+  padding: 20px 95px;
   border-radius: 5px;
+  background-color: rgb(247, 247, 247);
 }
 .csc-logo {
   display: block;

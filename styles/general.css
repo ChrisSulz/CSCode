@@ -3,7 +3,7 @@ p {
 }
 body {
   font-family: Roboto, Arial;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0;
-  background-color: #191c1f;
+  background-color: #ffffff;
 }

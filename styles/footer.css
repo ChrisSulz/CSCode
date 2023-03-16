@@ -1,10 +1,10 @@
 footer {
-  box-shadow: 0 0 10px rgb(16, 76, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 100px 0 0 0;
   font-size: 12px;
+  background-color: rgb(247, 247, 247);
 }
 
 #impressum {

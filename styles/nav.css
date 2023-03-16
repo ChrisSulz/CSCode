@@ -4,7 +4,6 @@
   top: 0;
   left: 0;
   right: 0;
-  /* background-color: rgb(145, 145, 145); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +13,8 @@
 nav {
   display: flex;
   align-items: center;
-  box-shadow: 0 0 10px rgb(16, 76, 255);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(149, 149, 149, 0.5);
   border-radius: 15px;
   height: 40px;
   padding: 0 15px;
@@ -32,13 +32,15 @@ nav {
   cursor: pointer;
   transition: 0.4s;
   position: relative;
+  filter: invert(0.75);
 }
 .nav-button-icon:hover {
   height: 200%;
+  filter: invert(1);
 }
 .tooltip {
   position: absolute;
-  background-color: rgba(184, 184, 184, 0.2);
+  background-color: rgba(184, 184, 184, 1);
   color: rgb(255, 255, 255);
   padding: 4px 8px 4px 8px;
   border-radius: 2px;
