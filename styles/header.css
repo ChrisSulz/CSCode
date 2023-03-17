@@ -1,12 +1,12 @@
 .logo-container {
   height: 100px;
-  padding-left: 30px;
+  padding-left: 3vw;
   display: flex;
   align-items: center;
 }
 
 .logo-container p {
-  font-size: 12px;
+  font-size: clamp(8px, 1.5vw, 12px);
   font-style: italic;
   padding: 5px 15px 5px 15px;
 }
