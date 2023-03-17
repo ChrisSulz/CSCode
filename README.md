@@ -1,2 +1,2 @@
 # CSCode
-# just creating my own blog.
+just creating my own blog.
