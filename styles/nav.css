@@ -32,11 +32,11 @@ nav {
   cursor: pointer;
   transition: 0.4s;
   position: relative;
-  filter: invert(0.75);
+  filter: invert(0.3);
 }
 .nav-button-icon:hover {
   height: 200%;
-  filter: invert(1);
+  filter: invert(0);
 }
 .tooltip {
   position: absolute;
