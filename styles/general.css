@@ -1,3 +1,6 @@
+:root {
+  --content-area: rgb(247, 247, 247);
+}
 p {
   margin: 0;
 }
