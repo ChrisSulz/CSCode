@@ -4,7 +4,7 @@ footer {
   align-items: center;
   margin: 100px 0 0 0;
   font-size: clamp(8px, 1.5vw, 12px);
-  background-color: rgb(247, 247, 247);
+  background-color: var(--content-area);
 }
 
 #impressum {
