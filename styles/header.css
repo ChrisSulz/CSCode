@@ -1,12 +1,22 @@
-.logo-container {
-  height: 100px;
-  padding-left: 3vw;
-  display: flex;
+header {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr;
   align-items: center;
-}
-
-.logo-container p {
+  height: 100px;
+  padding: 0 3vw;
   font-size: clamp(8px, 1.5vw, 12px);
   font-style: italic;
-  padding: 5px 15px 5px 15px;
+}
+
+.header-container-left {
+  grid-column: 1;
+}
+
+.cs-code-logo {
+  width: 10vw;
+  max-width: 60px;
+}
+
+.header-container-right {
+  grid-column: 3;
 }

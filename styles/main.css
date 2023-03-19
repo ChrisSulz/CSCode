@@ -4,10 +4,9 @@ main {
   background-color: var(--content-area);
   text-align: justify;
 }
-.csc-logo {
+main .cs-code-logo {
   display: block;
   margin: 0 auto 20px auto;
   width: 25vw;
   max-width: 200px;
-  border-radius: 50%;
 }
