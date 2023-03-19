@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="cs-logo.svg"
+   sodipodi:docname="cs-code-logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -120,17 +120,23 @@
        rx="0"
        ry="0"
        transform="rotate(-90)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.9692px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:-0.625592px;fill:#0088aa;fill-opacity:1;stroke-width:0.114262"
-       x="33.297688"
-       y="55.491089"
+    <g
+       aria-label="CODE"
+       transform="scale(1.465344,0.6824336)"
        id="text1262"
-       transform="scale(1.465344,0.6824336)"><tspan
-         sodipodi:role="line"
-         id="tspan1260"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';fill:#0088aa;fill-opacity:1;stroke-width:0.114262"
-         x="33.297688"
-         y="55.491089">CODE</tspan></text>
+       style="font-weight:bold;font-stretch:condensed;font-size:10.9692px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:-0.625592px;display:inline;stroke-width:0.114262">
+      <path
+         d="m 37.925319,54.725173 q 0,0.765916 -0.765916,0.765916 h -2.613755 q -0.744491,0 -0.744491,-0.765916 v -6.845038 q 0,-0.771272 0.744491,-0.771272 h 2.613755 q 0.765916,0 0.765916,0.771272 v 1.960316 H 36.677358 V 48.18543 h -1.622885 v 6.229092 h 1.622885 V 52.65238 h 1.247961 z"
+         id="path243" />
+      <path
+         d="m 42.511168,54.725173 q 0,0.765916 -0.76056,0.765916 h -2.720876 q -0.744491,0 -0.744491,-0.765916 v -6.845038 q 0,-0.771272 0.744491,-0.771272 h 2.720876 q 0.76056,0 0.76056,0.771272 z M 41.257851,54.414522 V 48.18543 h -1.719293 v 6.229092 z"
+         id="path245" />
+      <path
+         d="m 47.070238,53.911053 q 0,0.739135 -0.439197,1.162264 -0.439196,0.417772 -1.183688,0.417772 h -2.554838 v -8.382226 h 2.554838 q 0.744492,0 1.183688,0.428485 0.439197,0.423128 0.439197,1.162263 z m -1.258673,-0.208886 v -4.815094 q 0,-0.701643 -0.73378,-0.701643 h -0.931953 v 6.229092 h 0.899817 q 0.765916,0 0.765916,-0.712355 z"
+         id="path247" />
+      <path
+         d="m 50.89017,55.491089 h -3.476079 v -8.382226 h 3.443943 v 1.108704 h -2.190626 v 2.447717 h 1.885331 v 1.087279 h -1.885331 v 2.629823 h 2.222762 z"
+         id="path249" />
+    </g>
   </g>
 </svg>
