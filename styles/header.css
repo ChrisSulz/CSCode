@@ -18,5 +18,6 @@ header {
 }
 
 .header-container-right {
+  text-align: right;
   grid-column: 3;
 }
