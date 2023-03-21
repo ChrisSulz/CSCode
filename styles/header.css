@@ -12,9 +12,10 @@ header {
   grid-column: 1;
 }
 
-.cs-code-logo {
+header .cs-code-logo {
   width: 10vw;
   max-width: 60px;
+  cursor: pointer;
 }
 
 .header-container-right {
