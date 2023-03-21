@@ -8,7 +8,7 @@ function loadHTMLFiles(elements) {
     elementIds = elements;
   }
   // load .html-file
-  const fileNames = elementIds.map(id => `partials/${id}.html`);
+  const fileNames = elementIds.map(id => `components/${id}.html`);
   for (let i = 0; i < fileNames.length; i++) {
     const xhr = new XMLHttpRequest();
     xhr.open('GET', fileNames[i], true);
@@ -29,8 +29,8 @@ function loadHTMLFiles(elements) {
   }
 }
 
-// also possible: load every .html-file globally:
-// e.g. loadHTMLFiles(['header', 'nav', 'footer']);
+// load every .html-file globally:
+loadHTMLFiles(["header", "nav-container"]);
 
 
 // // just IDs
