@@ -30,7 +30,7 @@ function loadHTMLFiles(elements) {
 }
 
 // load every .html-file globally:
-loadHTMLFiles(["header", "nav-container"]);
+loadHTMLFiles(["header", "nav-container", "footer"]);
 
 
 // // just IDs
