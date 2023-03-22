@@ -4,7 +4,7 @@ footer {
   align-items: center;
   margin: 25px 0 0 0;
   background-color: var(--content-area);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--decent-box-shadow);
 }
 
 #impressum {

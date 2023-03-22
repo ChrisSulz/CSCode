@@ -7,7 +7,7 @@ header {
   font-size: clamp(8px, 1.5vw, 12px);
   font-style: italic;
   background-color: var(--content-area);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--decent-box-shadow);
 }
 
 .header-container-left {

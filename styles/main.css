@@ -1,11 +1,11 @@
 main {
   padding: 20px 10vw;
-  margin: 25px 0 0 0;
+  margin: 25px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: var(--content-area);
   text-align: justify;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--decent-box-shadow);
 }
 
 main .cs-code-logo {
