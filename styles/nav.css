@@ -6,7 +6,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  height: 100px;
+  height: 70px;
   z-index: 100;
 }
 nav {
@@ -46,14 +46,14 @@ nav {
   padding: 4px 8px 4px 8px;
   border-radius: 2px;
   font-size: 12px;
-  bottom: -5px;
+  bottom: -18px;
   opacity: 0;
   transition: 0.5s;
   pointer-events: none;
   white-space: nowrap;
 }
 .nav-button-container:hover .tooltip {
-  opacity: 1;
+  opacity: 0.9;
 }
 .separator {
   margin: 0 15px;

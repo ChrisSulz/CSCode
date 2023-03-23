@@ -2,7 +2,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 50% 1fr;
   align-items: center;
-  height: 100px;
+  height: 70px;
   padding: 0 3vw;
   font-size: clamp(8px, 1.5vw, 12px);
   font-style: italic;
@@ -15,8 +15,7 @@ header {
 }
 
 header .cs-code-logo {
-  width: 10vw;
-  max-width: 60px;
+  width: 45px;
   cursor: pointer;
 }
 
