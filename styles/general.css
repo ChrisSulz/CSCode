@@ -4,13 +4,21 @@
   --decent-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   --main-color: #0088aa;
 }
+
 p {
   margin: 0;
 }
+
 body {
   font-family: Roboto, Arial;
   font-size: 12px;
   color: var(--text-color);
   margin: 0;
   background-color: var(--main-color);
+}
+
+.bold-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(76, 76, 76);
 }

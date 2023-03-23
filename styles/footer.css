@@ -3,12 +3,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 25px 0 0 0;
+  padding: 10px;
   background-color: var(--content-area);
   box-shadow: var(--decent-box-shadow);
-}
-
-#impressum {
-  padding: 10px;
-  text-decoration: none;
-  color: rgb(76, 76, 76);
 }
