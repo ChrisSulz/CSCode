@@ -36,6 +36,8 @@ nav {
 .nav-button-icon:hover {
   height: 200%;
   filter: invert(0);
+  /* filter: invert(34%) sepia(76%) saturate(1011%) hue-rotate(156deg)
+    brightness(99%) contrast(100%); */
 }
 .tooltip {
   position: absolute;

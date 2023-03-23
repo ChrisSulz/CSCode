@@ -1,7 +1,8 @@
 :root {
   --content-area: rgb(255, 255, 255);
   --text-color: black;
-  --decent-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  --decent-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  --main-color: #0088aa;
 }
 p {
   margin: 0;
@@ -11,5 +12,5 @@ body {
   font-size: 12px;
   color: var(--text-color);
   margin: 0;
-  background-color: rgb(247, 247, 247);
+  background-color: var(--main-color);
 }
