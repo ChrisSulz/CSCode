@@ -10,15 +10,16 @@ main {
 
 /* INDEX */
 
+.index-container {
+  text-align: center;
+  margin: auto;
+}
+
 .index-container .cs-code-logo {
   display: block;
   margin: 0 auto 20px auto;
   width: 25vw;
   max-width: 200px;
-}
-
-.index-container {
-  text-align: center;
 }
 
 .index-container b {
