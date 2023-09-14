@@ -1,0 +1,59 @@
+main {
+  padding: 20px 10vw;
+  margin: 25px;
+  font-size: 16px;
+  border-radius: 2px;
+  background-color: var(--content-area);
+  text-align: justify;
+  box-shadow: var(--decent-box-shadow);
+}
+
+/* INDEX */
+
+.index-container {
+  text-align: center;
+  margin: auto;
+}
+
+.index-container .cs-code-logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 25vw;
+  max-width: 200px;
+}
+
+.index-container b {
+  color: var(--main-color);
+}
+
+/* IMPRESSUM */
+
+.impressum-container,
+.kontakt-container {
+  text-align: center;
+  font-size: smaller;
+}
+
+.impressum-container h1,
+.kontakt-container h1 {
+  margin-top: 0;
+}
+
+/* ABOUT ME */
+
+.about-me-container {
+  overflow: auto;
+  font-size: clamp(12px, 1.5vw, 16px);
+}
+
+.about-me-portrait {
+  margin: 0 20px 10px 0;
+  width: 25vw;
+  max-width: 300px;
+  border-radius: 50%;
+  float: left;
+}
+
+.about-me-text b {
+  color: var(--main-color);
+}
