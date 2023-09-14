@@ -1,0 +1,10 @@
+.impressum-container,
+.kontakt-container {
+  text-align: center;
+  font-size: smaller;
+}
+
+.impressum-container h1,
+.kontakt-container h1 {
+  margin-top: 0;
+}

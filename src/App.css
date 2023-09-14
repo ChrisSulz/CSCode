@@ -1,0 +1,29 @@
+/* .App {
+  text-align: center;
+} */
+
+main {
+  padding: 20px 10vw;
+  margin: 25px;
+  font-size: 16px;
+  border-radius: 2px;
+  background-color: var(--content-area);
+  text-align: justify;
+  box-shadow: var(--decent-box-shadow);
+}
+
+.index-container {
+  text-align: center;
+  margin: auto;
+}
+
+.index-container .cs-code-logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 25vw;
+  max-width: 200px;
+}
+
+.index-container b {
+  color: var(--main-color);
+}

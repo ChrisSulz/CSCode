@@ -1,0 +1,16 @@
+.about-me-container {
+  overflow: auto;
+  font-size: clamp(12px, 1.5vw, 16px);
+}
+
+.about-me-portrait {
+  margin: 0 20px 10px 0;
+  width: 25vw;
+  max-width: 300px;
+  border-radius: 50%;
+  float: left;
+}
+
+.about-me-text b {
+  color: var(--main-color);
+}
