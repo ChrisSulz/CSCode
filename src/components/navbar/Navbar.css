@@ -24,7 +24,7 @@ nav {
 }
 .nav-button-icon {
   height: 120%;
-  margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
   cursor: pointer;
   transition: 0.4s;
   position: relative;
