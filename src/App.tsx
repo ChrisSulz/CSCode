@@ -19,7 +19,7 @@ export default function App() {
           <p>
             Willkommen auf meiner Website! Wie Sie vielleicht bemerkt haben, ist
             sie <b>noch nicht vollständig</b> eingerichtet. Aber keine Sorge, ich
-            arbeite hart daran, sie so schnell wie möglich fertigzustellen.
+            arbeite hart daran, sie so schnell wie möglich fertigzustellen. 
           </p>
           <br />
           <p>
