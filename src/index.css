@@ -3,6 +3,10 @@
   --text-color: black;
   --decent-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   --main-color: #0088aa;
+
+  /* font-family: "Alata";
+  color: rgb(255, 255, 255);
+  background-color: #242328; */
 }
 
 p {
