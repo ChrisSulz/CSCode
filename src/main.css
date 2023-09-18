@@ -38,7 +38,6 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  color: #fff;
   background-color: #00a1ca;
   transition: background-color 0.3s ease;
 }

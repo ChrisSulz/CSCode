@@ -39,11 +39,11 @@ export default function App() {
                 <li><img src={ReactIcon} alt="react-icon" className='index-icon'/> <b>React</b> als Programmbibliothek</li>
                 <li><img src={ViteIcon} alt="vite-icon" className='index-icon'/> <b>Vite</b> als lokaler Entwicklungsserver</li>
               </ul>
-              <button className='button-github'>
-                <a href="https://github.com/ChrisSulz/CSCode">
+              <a href="https://github.com/ChrisSulz/CSCode">
+                <button className='button-github'>
                   <img src={GitHubIcon} alt="github-icon" className='index-icon'/> GitHub Repository
-                </a>
-              </button>
+                </button>
+              </a>
             </p>
           </div>
         </div>
