@@ -1,7 +1,6 @@
 import './Navbar.css';
 import iconHome from "../../images/icons/icon-home.svg"
 import iconAbout from "../../images/icons/icon-about-me.svg"
-import iconContact from "../../images/icons/icon-contact.svg"
 import iconProjects from "../../images/icons/icon-projects.svg"
 
 export default function Navbar() {
@@ -18,10 +17,6 @@ export default function Navbar() {
             <div className="nav-button-container">
                 <img className="nav-button-icon" src={iconAbout} alt="iconAbout" onClick={() => { window.location.href = 'about'; }} />
                 <div className="tooltip">Über mich</div>
-            </div>
-            <div className="nav-button-container">
-                <img className="nav-button-icon" src={iconContact} alt="iconContact" onClick={() => { window.location.href = 'contact'; }} />
-                <div className="tooltip">Kontakt</div>
             </div>
         </nav>
     );

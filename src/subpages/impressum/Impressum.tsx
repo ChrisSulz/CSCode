@@ -3,6 +3,8 @@ import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 
+import iconContact from "../../images/icons/icon-contact.svg"
+
 export default function Impressum() {
   return (
     <>
@@ -12,11 +14,13 @@ export default function Impressum() {
         <div className="impressum-container">
           <h1>Impressum</h1>
           <br />
-          <p>Christian Sulzinger</p>
-          <p>Altöttingerstraße 9</p>
-          <p>84570 Polling</p>
-          <br />
-          <a href="contact" className="bold-link">Kontakt</a>
+          <p>
+            Christian Sulzinger <br />
+            Altöttingerstraße 9 <br />
+            84570 Polling <br />
+            <br />
+            <img src={iconContact} alt="icon-contact" className="icon-small"/> chris.sulzinger@gmail.com
+          </p>
         </div>
       </main>
       <Footer/>

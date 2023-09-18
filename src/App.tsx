@@ -1,6 +1,5 @@
 import './App.css';
 import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 
 import CSCode from "./images/cs-code-logo.svg";
@@ -15,7 +14,6 @@ export default function App() {
   return (
     <>
       <Header/>
-      <Navbar/>
       <main>
         <div className="index-container">
           <img
@@ -33,15 +31,15 @@ export default function App() {
               Um mich selbst und meine Kenntnisse im <b>Web Development</b> weiter zu stärken und voranzubringen, habe ich mich für einen <b>persönlichen Blog</b> entschieden. <br />
               Hier entstehen meine <b>Projekte</b> durch die Verwendung von: <br />
               <ul>
-                <li><img src={HTML5Icon} alt="html5-icon" className='index-icon'/> <b>HTML</b></li>
-                <li><img src={CSS3Icon} alt="css3-icon" className='index-icon'/> <b>CSS</b></li>
-                <li><img src={JSIcon} alt="javascript-icon" className='index-icon'/> <b>JavaScript</b></li>
-                <li><img src={ReactIcon} alt="react-icon" className='index-icon'/> <b>React</b> als Programmbibliothek</li>
-                <li><img src={ViteIcon} alt="vite-icon" className='index-icon'/> <b>Vite</b> als lokaler Entwicklungsserver</li>
+                <li><img src={HTML5Icon} alt="html5-icon" className='icon-small'/> <b>HTML</b></li>
+                <li><img src={CSS3Icon} alt="css3-icon" className='icon-small'/> <b>CSS</b></li>
+                <li><img src={JSIcon} alt="javascript-icon" className='icon-small'/> <b>JavaScript</b></li>
+                <li><img src={ReactIcon} alt="react-icon" className='icon-small'/> <b>React</b> als Programmbibliothek</li>
+                <li><img src={ViteIcon} alt="vite-icon" className='icon-small'/> <b>Vite</b> als lokaler Entwicklungsserver</li>
               </ul>
               <a href="https://github.com/ChrisSulz/CSCode">
                 <button className='button-github'>
-                  <img src={GitHubIcon} alt="github-icon" className='index-icon'/> GitHub Repository
+                  <img src={GitHubIcon} alt="github-icon" className='icon-small'/> GitHub Repository
                 </button>
               </a>
             </p>
