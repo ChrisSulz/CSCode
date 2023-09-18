@@ -23,6 +23,30 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+b {
+  color: var(--main-color);
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #00a1ca;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--main-color);
+}
+
 main {
   padding: 20px 10vw;
   margin: 25px;
@@ -37,8 +61,4 @@ main {
   text-decoration: none;
   font-weight: bold;
   color: rgb(76, 76, 76);
-}
-
-b {
-  color: var(--main-color);
 }
