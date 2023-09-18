@@ -9,3 +9,31 @@
   width: 25vw;
   max-width: 200px;
 }
+
+.index-text h1 {
+  font-size: 1.58em;
+}
+
+.index-text h2 {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.index-text-header {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 7px 0;
+  /* max-width: 300px; */
+  border-top: solid rgba(0, 0, 0, 0.2);
+  border-bottom: solid rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+}
+
+.index-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* .index-text li {
+
+} */

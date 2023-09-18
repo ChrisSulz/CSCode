@@ -18,6 +18,7 @@ export default function About() {
         />
         <div className="about-me-text">
           <h1>Über mich</h1>
+          <br />
           <p>
             Mein Name ist <b>Christian Sulzinger</b> und ich studiere momentan <b>Informatik</b> an der Hochschule für angewandte Wissenschaften in <b>Landshut</b>. 
             Nach meiner erfolgreichen <b>Ausbildung zum Einzelhandelskaufmann</b> habe ich mich dazu
