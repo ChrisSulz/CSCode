@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import './index.css';
+import './main.css';
 import About from './subpages/about/About';
 import Contact from './subpages/contact/Contact';
 import Impressum from './subpages/impressum/Impressum';
