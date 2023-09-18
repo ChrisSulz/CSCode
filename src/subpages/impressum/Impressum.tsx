@@ -11,6 +11,7 @@ export default function Impressum() {
       <main>
         <div className="impressum-container">
           <h1>Impressum</h1>
+          <br />
           <p>Christian Sulzinger</p>
           <p>Altöttingerstraße 9</p>
           <p>84570 Polling</p>

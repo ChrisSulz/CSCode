@@ -11,6 +11,7 @@ export default function Contact() {
       <main>
         <div className="contakt-container">
           <h1>Kontakt</h1>
+          <br />
           <p>chris.sulzinger@gmail.com</p>
         </div>
       </main>
