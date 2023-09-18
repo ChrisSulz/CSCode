@@ -12,14 +12,28 @@ p {
 body {
   font-family: Roboto, Arial;
   /* font-family: "Alata"; */
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-color);
   margin: 0;
   background-color: var(--main-color);
+}
+
+main {
+  padding: 20px 10vw;
+  margin: 25px;
+  font-size: 16px;
+  border-radius: 2px;
+  background-color: var(--content-area);
+  text-align: justify;
+  box-shadow: var(--decent-box-shadow);
 }
 
 .bold-link {
   text-decoration: none;
   font-weight: bold;
   color: rgb(76, 76, 76);
+}
+
+b {
+  color: var(--main-color);
 }

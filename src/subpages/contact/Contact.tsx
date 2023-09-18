@@ -9,7 +9,7 @@ export default function Contact() {
       <Header/>
       <Navbar/>
       <main>
-        <div className="kontakt-container">
+        <div className="contakt-container">
           <h1>Kontakt</h1>
           <p>chris.sulzinger@gmail.com</p>
         </div>

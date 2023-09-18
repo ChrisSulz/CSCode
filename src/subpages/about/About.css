@@ -1,6 +1,5 @@
 .about-me-container {
   overflow: auto;
-  font-size: clamp(12px, 1.5vw, 16px);
 }
 
 .about-me-portrait {
