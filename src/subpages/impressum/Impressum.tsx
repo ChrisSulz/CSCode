@@ -1,13 +1,16 @@
 import "./Impressum.css";
+import { Helmet } from 'react-helmet';
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
-
 import iconContact from "../../images/icons/icon-contact.svg"
 
 export default function Impressum() {
   return (
     <>
+      <Helmet>
+      <title>Impressum | CS-Code</title>
+      </Helmet>
       <Header/>
       <Navbar/>
       <main>

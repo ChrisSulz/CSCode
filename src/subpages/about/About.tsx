@@ -1,4 +1,5 @@
 import "./About.css";
+import { Helmet } from 'react-helmet';
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
@@ -7,6 +8,9 @@ import portrait from "../../images/portrait.jpg";
 export default function About() {
   return (
     <>
+      <Helmet>
+      <title>Über mich | CS-Code</title>
+      </Helmet>
       <Header/>
       <Navbar/>
       <main>
