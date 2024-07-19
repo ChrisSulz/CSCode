@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './components/header/Header';
@@ -14,12 +14,14 @@ export default function App() {
       <div className="app">
         <Header />
         <Navbar/>
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/impressum" element={<Impressum />} />
           </Routes>
-                <Footer />
+        </main>
+        <Footer />
       </div>
     </Router>
   );

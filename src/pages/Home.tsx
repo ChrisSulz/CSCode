@@ -15,7 +15,6 @@ export default function App() {
       <Helmet>
         <title>CS-Code</title>
       </Helmet>
-      <main>
         <div className="index-container">
           <img
             src={CSCode}
@@ -46,7 +45,6 @@ export default function App() {
             </p>
           </div>
         </div>
-      </main>
     </>
   );
 }

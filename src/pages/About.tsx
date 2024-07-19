@@ -9,7 +9,6 @@ export default function About() {
       <Helmet>
       <title>Über mich | CS-Code</title>
       </Helmet>
-      <main>
       <div className="about-me-container">
         <img
           src={portrait}
@@ -39,7 +38,6 @@ export default function About() {
           <br />
         </div>
       </div>
-    </main>
     </>
   );
 }

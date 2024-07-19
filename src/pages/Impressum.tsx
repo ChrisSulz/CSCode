@@ -9,7 +9,6 @@ export default function Impressum() {
       <Helmet>
       <title>Impressum | CS-Code</title>
       </Helmet>
-      <main>
         <div className="impressum-container">
           <h1>Impressum</h1>
           <br />
@@ -21,7 +20,6 @@ export default function Impressum() {
             <img src={iconContact} alt="icon-contact" className="icon-small"/> chris.sulzinger@gmail.com
           </p>
         </div>
-      </main>
     </>
   );
 }
