@@ -1,22 +1,18 @@
 import './Navbar.css';
-import iconHome from "../../images/icons/icon-home.svg"
-import iconAbout from "../../images/icons/icon-about-me.svg"
-import iconProjects from "../../images/icons/icon-projects.svg"
 
 export default function Navbar() {
     return (
         <nav>
-            <div className="nav-button-container">
-                <img className="nav-button-icon" src={iconHome} alt="iconHome" onClick={() => { window.location.href = '/'; }} />
-                <div className="tooltip">Hauptseite</div>
+            <div className="nav-button">
+                <p onClick={() => { window.location.href = '/'; }}>HOME</p>
             </div>
-            <div className="nav-button-container">
-                <img className="nav-button-icon" src={iconProjects} alt="iconProjects" onClick={() => { window.location.href = '/'; }} />
-                <div className="tooltip">Meine Projekte (tbd)</div>
+            <div className='separator'></div>
+            <div className="nav-button">
+                <p onClick={() => { window.location.href = '/'; }}>MY PROJECTS (tbd)</p>
             </div>
-            <div className="nav-button-container">
-                <img className="nav-button-icon" src={iconAbout} alt="iconAbout" onClick={() => { window.location.href = 'about'; }} />
-                <div className="tooltip">Über mich</div>
+            <div className='separator'></div>
+            <div className="nav-button">
+                <p onClick={() => { window.location.href = '/about'; }}>ABOUT ME</p>
             </div>
         </nav>
     );

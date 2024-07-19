@@ -5,8 +5,7 @@ header {
   height: 70px;
   padding: 0 3vw;
   font-size: clamp(8px, 1.5vw, 12px);
-  font-style: italic;
-  background-color: var(--content-area);
+  background-color: #0b0070;
   box-shadow: var(--decent-box-shadow);
 }
 
@@ -20,6 +19,7 @@ header .cs-code-logo {
 }
 
 .header-container-right {
+  font-style: italic;
   text-align: right;
   grid-column: 3;
 }

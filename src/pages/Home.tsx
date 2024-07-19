@@ -15,36 +15,37 @@ export default function App() {
       <Helmet>
         <title>CS-Code</title>
       </Helmet>
-        <div className="index-container">
-          <img
-            src={CSCode}
-            alt="cs-code-logo"
-            className="cs-code-logo"
-          />
-          <div className='index-text'>
-            <div className='index-text-header'>
-              <h1>Persönlicher Blog</h1>
-              <h2>von Christian Sulzinger</h2>
-            </div>
-            <br />
-            <p>
-              Um mich selbst und meine Kenntnisse im <b>Web Development</b> weiter zu stärken und voranzubringen, habe ich mich für einen <b>persönlichen Blog</b> entschieden. <br />
-              Hier entstehen meine <b>Projekte</b> durch die Verwendung von: <br />
-              <ul>
-                <li><img src={HTML5Icon} alt="html5-icon" className='icon-small'/> <b>HTML</b></li>
-                <li><img src={CSS3Icon} alt="css3-icon" className='icon-small'/> <b>CSS</b></li>
-                <li><img src={JSIcon} alt="javascript-icon" className='icon-small'/> <b>JavaScript</b></li>
-                <li><img src={ReactIcon} alt="react-icon" className='icon-small'/> <b>React</b> als Programmbibliothek</li>
-                <li><img src={ViteIcon} alt="vite-icon" className='icon-small'/> <b>Vite</b> als lokaler Entwicklungsserver</li>
-              </ul>
-              <a href="https://github.com/ChrisSulz/CSCode">
-                <button className='button-github'>
-                  <img src={GitHubIcon} alt="github-icon" className='icon-small'/> GitHub Repository
-                </button>
-              </a>
-            </p>
+      <div className="index-container">
+        <img
+          src={CSCode}
+          alt="cs-code-logo"
+          className="cs-code-logo"
+        />
+        <div className='index-text'>
+          <div className='index-text-header'>
+            <h1>Persönlicher Blog</h1>
+            <h2>von Christian Sulzinger</h2>
           </div>
+          <br />
+          <p>
+            Um mich selbst und meine Kenntnisse im <b>Web Development</b> weiter zu stärken und voranzubringen,
+            habe ich mich für einen <b>persönlichen Blog</b> entschieden.
+          </p>
+          <p>Hier entstehen meine <b>Projekte</b> durch die Verwendung von:</p>
+          <ul className='tech-list'>
+            <li><img src={HTML5Icon} alt="html5-icon" className='icon-small' /> <b>HTML</b></li>
+            <li><img src={CSS3Icon} alt="css3-icon" className='icon-small' /> <b>CSS</b></li>
+            <li><img src={JSIcon} alt="javascript-icon" className='icon-small' /> <b>JavaScript</b></li>
+            <li><img src={ReactIcon} alt="react-icon" className='icon-small' /> <b>React</b></li>
+            <li><img src={ViteIcon} alt="vite-icon" className='icon-small' /> <b>Vite</b></li>
+          </ul>
+          <a href="https://github.com/ChrisSulz/CSCode" className="github-link">
+            <button className='button-github'>
+              <img src={GitHubIcon} alt="github-icon" className='icon-small' /> GitHub Repository
+            </button>
+          </a>
         </div>
+      </div>
     </>
   );
 }
