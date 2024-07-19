@@ -1,9 +1,7 @@
 import "./Impressum.css";
 import { Helmet } from 'react-helmet';
-import Header from "../../components/header/Header";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
-import iconContact from "../../images/icons/icon-contact.svg"
+
+import iconContact from "../images/icons/icon-contact.svg"
 
 export default function Impressum() {
   return (
@@ -11,8 +9,6 @@ export default function Impressum() {
       <Helmet>
       <title>Impressum | CS-Code</title>
       </Helmet>
-      <Header/>
-      <Navbar/>
       <main>
         <div className="impressum-container">
           <h1>Impressum</h1>
@@ -26,7 +22,6 @@ export default function Impressum() {
           </p>
         </div>
       </main>
-      <Footer/>
     </>
   );
 }

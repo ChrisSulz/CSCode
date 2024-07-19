@@ -1,9 +1,7 @@
 import "./About.css";
 import { Helmet } from 'react-helmet';
-import Header from "../../components/header/Header";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
-import portrait from "../../images/portrait.jpg";
+
+import portrait from "../images/portrait.jpg";
 
 export default function About() {
   return (
@@ -11,8 +9,6 @@ export default function About() {
       <Helmet>
       <title>Über mich | CS-Code</title>
       </Helmet>
-      <Header/>
-      <Navbar/>
       <main>
       <div className="about-me-container">
         <img
@@ -44,7 +40,6 @@ export default function About() {
         </div>
       </div>
     </main>
-    <Footer/>
     </>
   );
 }

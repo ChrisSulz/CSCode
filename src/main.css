@@ -59,16 +59,8 @@ main {
   border-radius: 2px;
   text-align: justify;
   box-shadow: var(--decent-box-shadow);
-  background: linear-gradient(
-      90deg,
-      rgba(0, 136, 170, 0.3) 0%,
-      rgba(255, 255, 255, 0) 12%
-    ),
-    linear-gradient(
-      270deg,
-      rgba(0, 136, 170, 0.3) 0%,
-      rgba(255, 255, 255, 0) 12%
-    );
+  background: linear-gradient(90deg, rgba(0, 136, 170, 0.3) 0%, rgba(255, 255, 255, 0) 12%),
+    linear-gradient(270deg, rgba(0, 136, 170, 0.3) 0%, rgba(255, 255, 255, 0) 12%);
   background-color: var(--content-area);
 }
 
