@@ -1,43 +1,42 @@
 import "./About.css";
-import { Helmet } from 'react-helmet';
-
 import portrait from "../images/portrait.jpg";
 
 export default function About() {
   return (
-    <>
-      <Helmet>
-      <title>Über mich | CS-Code</title>
-      </Helmet>
-      <div className="about-me-container">
+    <div className="about-container">
+      <div className="about-content">
         <img
           src={portrait}
-          alt="about-me-portrait"
-          className="about-me-portrait"
+          alt="Christian Sulzinger"
+          className="about-portrait"
         />
-        <div className="about-me-text">
-          <h1>Über mich</h1>
-          <br />
-          <p>
-            Mein Name ist <b>Christian Sulzinger</b> und ich studiere momentan <b>Informatik</b> an der Hochschule für angewandte Wissenschaften in <b>Landshut</b>. 
-            Nach meiner erfolgreichen <b>Ausbildung zum Einzelhandelskaufmann</b> habe ich mich dazu
-            entschieden, mein <b>allgemeines Abitur</b> an einer
-            Berufsoberschule nachzuholen und meine Leidenschaft für die <b>Computerwissenschaften</b> weiter zu vertiefen. Seitdem verfolge
-            ich mit Begeisterung mein <b>Studium</b> in diesem spannenden
-            Bereich und setze mein erworbenes Wissen in <b>praktischen Projekten</b> um.
+        <div className="about-text">
+          <h1 className="about-title">Über mich</h1>
+          <h2 className="about-name">Christian Sulzinger</h2>
+          <p className="about-description">
+            Informatik - Bachelor of Science (B.Sc.)
           </p>
-          <br />
-          <p>
-            Für mich ist die <b>Webentwicklung</b> derzeit ein ganz besonderes
-            Interessengebiet. Ich arbeite leidenschaftlich gerne mit <b>HTML</b>, <b>CSS</b> und <b>JavaScript</b> und entwerfe auch mit
-            viel Freude <b>Grafiken</b>, <b>Symbole</b> und <b>Logos</b>. Mein
-            Ziel ist es, eine Website zu gestalten, die nicht nur <b>funktional</b> und <b>benutzerfreundlich</b> ist, sondern auch
-            durch ein <b>ansprechendes Design</b> überzeugt. Gerne können Sie
-            sich von meinem bisherigen Können auf <b>meiner Website</b> überzeugen.
+          <div className="about-skills">
+            <span className="skill-tag">C</span>
+            <span className="skill-tag">C++</span>
+            <span className="skill-tag">Java</span>
+            <span className="skill-tag">Python</span>
+            <span className="skill-tag">HTML</span>
+            <span className="skill-tag">CSS</span>
+            <span className="skill-tag">TypeScript</span>
+            <span className="skill-tag">Grafikdesign</span>
+          </div>
+          <p className="about-paragraph">
+            Nach meiner erfolgreichen <span className="highlight">Ausbildung zum Einzelhandelskaufmann</span> und dem Nachholen des <span className="highlight">allgemeinen Abiturs</span> verfolgte ich mit Begeisterung mein <span className="highlight">Studium in den Computerwissenschaften</span>.
           </p>
-          <br />
+          <p className="about-paragraph">
+            Meine Leidenschaft gilt besonders der <span className="highlight">Webentwicklung</span>, bei der ich mein Wissen in <span className="highlight">praktischen Projekten</span> umsetze.
+          </p>
+          <p className="about-paragraph">
+            Mein persönliches Ziel ist es, Websites zu gestalten, die nicht nur <span className="highlight">funktional</span> und <span className="highlight">benutzerfreundlich</span> sind, sondern auch durch ein <span className="highlight">ansprechendes Design</span> überzeugen.
+          </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

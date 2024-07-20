@@ -2,7 +2,6 @@
   max-width: 800px;
   text-align: center;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .index-container .cs-code-logo {
@@ -10,6 +9,7 @@
   margin: 0 auto 20px auto;
   width: 25vw;
   max-width: 200px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
 }
 
 .index-text h1 {

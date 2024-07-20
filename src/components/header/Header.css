@@ -5,7 +5,7 @@ header {
   height: 70px;
   padding: 0 3vw;
   font-size: clamp(8px, 1.5vw, 12px);
-  background-color: #0b0070;
+  background-color: var(--header-color);
   box-shadow: var(--decent-box-shadow);
 }
 

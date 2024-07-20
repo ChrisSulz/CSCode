@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import CSCode from "../images/cs-code-logo.svg";
 import HTML5Icon from "../images/icons/icon-html5.svg";
 import CSS3Icon from "../images/icons/icon-css3.svg";
-import JSIcon from "../images/icons/icon-javascript.svg";
+import TSIcon from "../images/icons/icon-typescript.svg";
 import ReactIcon from "../images/icons/icon-react.svg";
 import ViteIcon from "../images/icons/icon-vite.svg";
 import GitHubIcon from "../images/icons/icon-github.svg";
@@ -35,7 +35,7 @@ export default function App() {
           <ul className='tech-list'>
             <li><img src={HTML5Icon} alt="html5-icon" className='icon-small' /> <b>HTML</b></li>
             <li><img src={CSS3Icon} alt="css3-icon" className='icon-small' /> <b>CSS</b></li>
-            <li><img src={JSIcon} alt="javascript-icon" className='icon-small' /> <b>JavaScript</b></li>
+            <li><img src={TSIcon} alt="typescript-icon" className='icon-small' /> <b>TypeScript</b></li>
             <li><img src={ReactIcon} alt="react-icon" className='icon-small' /> <b>React</b></li>
             <li><img src={ViteIcon} alt="vite-icon" className='icon-small' /> <b>Vite</b></li>
           </ul>

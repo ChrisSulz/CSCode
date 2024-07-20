@@ -5,3 +5,8 @@
 .impressum-container h1 {
   margin-top: 0;
 }
+
+.icon-small {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.608));
+  margin-right: 3px;
+}

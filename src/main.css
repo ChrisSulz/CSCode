@@ -1,9 +1,10 @@
 :root {
   --content-area: #191c1f;
   --text-color: rgb(255, 255, 255);
-  --decent-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   --main-color: #0088aa;
+  --header-color: #0b0070;
   --grey-text: rgb(98, 98, 98);
+  --decent-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   --font-standard: "Rubik", sans-serif;
 }
 
@@ -63,7 +64,7 @@ button:hover {
 }
 
 main {
-  padding: 20px 10vw;
+  padding: 35px 10vw;
   font-size: 1.1rem;
   text-align: justify;
   background-color: var(--content-area);
