@@ -57,3 +57,13 @@
   margin-top: 5px;
   color: rgb(211, 211, 211);
 }
+
+@media (max-width: 600px) {
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-descr {
+    font-size: 0.9rem;
+  }
+}
