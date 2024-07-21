@@ -8,11 +8,11 @@ export default function Navbar() {
             </div>
             <div className='separator'></div>
             <div className="nav-entry">
-                <p onClick={() => { window.location.href = '/projects'; }}>MY PROJECTS</p>
+                <p onClick={() => { window.location.href = '/projects'; }}>PROJEKTE</p>
             </div>
             <div className='separator'></div>
             <div className="nav-entry">
-                <p onClick={() => { window.location.href = '/about'; }}>ABOUT ME</p>
+                <p onClick={() => { window.location.href = '/about'; }}>ÜBER MICH</p>
             </div>
         </nav>
     );
