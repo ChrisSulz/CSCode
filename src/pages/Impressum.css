@@ -6,7 +6,7 @@
   margin-top: 0;
 }
 
-.icon-small {
-  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.608));
+.impressum-container .icon-small {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.6));
   margin-right: 3px;
 }

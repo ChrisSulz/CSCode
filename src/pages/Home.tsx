@@ -10,6 +10,11 @@ import ViteIcon from "../images/icons/icon-vite.svg";
 import GitHubIcon from "../images/icons/icon-github.svg";
 
 export default function App() {
+
+  const handleClick1 = () => {
+    window.open('https://github.com/ChrisSulz/CSCode', '_blank');
+  };
+
   return (
     <>
       <Helmet>
@@ -23,7 +28,7 @@ export default function App() {
         />
         <div className='index-text'>
           <div className='index-text-header'>
-            <h1>Persönlicher Blog</h1>
+            <h1>PERSÖNLICHER BLOG</h1>
             <h2>von Christian Sulzinger</h2>
           </div>
           <br />
@@ -39,11 +44,11 @@ export default function App() {
             <li><img src={ReactIcon} alt="react-icon" className='icon-small' /> <b>React</b></li>
             <li><img src={ViteIcon} alt="vite-icon" className='icon-small' /> <b>Vite</b></li>
           </ul>
-          <a href="https://github.com/ChrisSulz/CSCode" className="github-link">
+          <div className="github-link" onClick={handleClick1} >
             <button className='button-github'>
               <img src={GitHubIcon} alt="github-icon" className='icon-small' /> GitHub Repository
             </button>
-          </a>
+          </div>
         </div>
       </div>
     </>

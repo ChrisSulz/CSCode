@@ -51,6 +51,7 @@
 .project-title {
   font-size: 2rem;
   color: var(--main-color);
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 .project-descr {

@@ -3,7 +3,7 @@
   --content-area-light: #22262a;
   --text-color: rgb(255, 255, 255);
   --main-color: #0088aa;
-  --header-color: #0b0070;
+  --header-color: #070049;
   --grey-text: rgb(98, 98, 98);
   --decent-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   --font-standard: "Rubik", sans-serif;
@@ -23,6 +23,10 @@ body {
 a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+h1 {
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 p,
