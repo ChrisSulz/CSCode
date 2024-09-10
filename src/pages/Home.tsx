@@ -7,6 +7,7 @@ import CSS3Icon from "../images/icons/icon-css3.svg";
 import TSIcon from "../images/icons/icon-typescript.svg";
 import ReactIcon from "../images/icons/icon-react.svg";
 import ViteIcon from "../images/icons/icon-vite.svg";
+import FirebaseIcon from "../images/icons/icon-firebase.svg";
 import GitHubIcon from "../images/icons/icon-github.svg";
 
 export default function App() {
@@ -43,6 +44,8 @@ export default function App() {
             <li><img src={TSIcon} alt="typescript-icon" className='icon-small' /> <b>TypeScript</b></li>
             <li><img src={ReactIcon} alt="react-icon" className='icon-small' /> <b>React</b></li>
             <li><img src={ViteIcon} alt="vite-icon" className='icon-small' /> <b>Vite</b></li>
+            <li><img src={FirebaseIcon} alt="firebase-icon" className='icon-small' /> <b>Firebase</b></li>
+            {/* <li><img src={GitHubIcon} alt="firebase-icon" className='icon-small' /> <b>GitHub</b></li> */}
           </ul>
           <div className="github-link" onClick={handleClick1} >
             <button className='button-github'>
