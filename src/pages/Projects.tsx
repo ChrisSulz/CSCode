@@ -1,7 +1,7 @@
 import "./Projects.css";
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import CSCode from "../images/cs-code-logo.svg";
+// import CSCode from "../images/cs-code-logo.svg";
 import BachelorThesis from "../images/icons/bachelor-thesis.svg";
 import PhasmoGuide from "../images/icons/icon-ghost.svg";
 
@@ -33,7 +33,7 @@ export default function Projects() {
       description: 'Eine Zusammenstellung von hilfreichen Informationen für das Spiel Phasmophobia als eigenständiger Guide.',
       image: PhasmoGuide,
       altText: 'Phasmophobia Guide',
-      internalLink: '/PhasmoGuide',
+      internalLink: '/phasmo',
       workInProgress: true
     }
   ]
