@@ -70,9 +70,13 @@
   margin-top: 20px;
 }
 
-@media (max-width: 600px) {
-  .tech-list {
+@media (max-width: 400px) {
+  .index-text h1 {
+    font-size: 2rem;
+  }
+
+  /* .tech-list {
     flex-direction: column;
     align-items: center;
-  }
+  } */
 }
