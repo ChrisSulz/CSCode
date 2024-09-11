@@ -5,3 +5,7 @@
 .PhasmoGuide-container h1 {
   margin-top: 0;
 }
+
+.work-in-progress {
+  color: var(--grey-text);
+}

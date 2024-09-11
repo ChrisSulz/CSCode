@@ -1,19 +1,20 @@
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
     return (
         <nav>
-            <div className="nav-entry">
-                <p onClick={() => { window.location.href = '/'; }}>HOME</p>
-            </div>
+            <Link className="nav-entry" to='/'>
+                <p>HOME</p>
+            </Link>
             <div className='separator'></div>
-            <div className="nav-entry">
-                <p onClick={() => { window.location.href = '/projects'; }}>PROJEKTE</p>
-            </div>
+            <Link className="nav-entry" to='/projects'>
+                <p>PROJEKTE</p>
+            </Link>
             <div className='separator'></div>
-            <div className="nav-entry">
-                <p onClick={() => { window.location.href = '/about'; }}>ÜBER MICH</p>
-            </div>
+            <Link className="nav-entry" to='/about'>
+                <p>ÜBER MICH</p>
+            </Link>
         </nav>
     );
 }

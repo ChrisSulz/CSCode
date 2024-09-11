@@ -8,10 +8,10 @@ export default function PhasmoGuide() {
         <title>PhasmoGuide | CS-Code</title>
       </Helmet>
       <div className="PhasmoGuide-container">
-        <h1>PhasmoGuide</h1>
+        <h1>Phasmophobia Guide</h1>
         <br />
-        <p>
-          empty
+        <p className="work-in-progress">
+          - WORK IN PROGRESS -
         </p>
       </div>
     </>

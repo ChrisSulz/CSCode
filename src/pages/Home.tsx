@@ -1,5 +1,6 @@
 import './Home.css';
 import { Helmet } from 'react-helmet';
+// import { Link } from 'react-router-dom';
 
 import CSCode from "../images/cs-code-logo.svg";
 import HTML5Icon from "../images/icons/icon-html5.svg";
@@ -11,11 +12,6 @@ import FirebaseIcon from "../images/icons/icon-firebase.svg";
 import GitHubIcon from "../images/icons/icon-github.svg";
 
 export default function App() {
-
-  const handleClick1 = () => {
-    window.open('https://github.com/ChrisSulz/CSCode', '_blank');
-  };
-
   return (
     <>
       <Helmet>
@@ -47,11 +43,11 @@ export default function App() {
             <li><img src={FirebaseIcon} alt="firebase-icon" className='icon-small' /> <b>Firebase</b></li>
             {/* <li><img src={GitHubIcon} alt="firebase-icon" className='icon-small' /> <b>GitHub</b></li> */}
           </ul>
-          <div className="github-link" onClick={handleClick1} >
+          <a href='https://github.com/ChrisSulz/CSCode' target="_blank" rel="noopener noreferrer" className="github-link">
             <button className='button-github'>
               <img src={GitHubIcon} alt="github-icon" className='icon-small' /> GitHub Repository
             </button>
-          </div>
+          </a>
         </div>
       </div>
     </>
