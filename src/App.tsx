@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Impressum from './pages/Impressum';
 import Projects from './pages/Projects';
+import PhasmoGuide from './pages/projects/PhasmoGuide';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/impressum" element={<Impressum />} />
+            <Route path="/phasmo" element={<PhasmoGuide />} />
           </Routes>
         </main>
         <Footer />
