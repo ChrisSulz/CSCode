@@ -12,6 +12,17 @@ import FirebaseIcon from "../images/icons/icon-firebase.svg";
 import GitHubIcon from "../images/icons/icon-github.svg";
 
 export default function App() {
+
+  const techList = [
+    { id: 1, title: "HTML", icon: HTML5Icon },
+    { id: 2, title: "CSS", icon: CSS3Icon },
+    { id: 3, title: "TypeScript", icon: TSIcon },
+    { id: 4, title: "React", icon: ReactIcon },
+    { id: 5, title: "Vite", icon: ViteIcon },
+    { id: 6, title: "Firebase", icon: FirebaseIcon },
+    // { id: 7, title: "GitHub", icon: GitHubIcon },
+  ]
+
   return (
     <>
       <Helmet>
@@ -35,13 +46,9 @@ export default function App() {
           </p>
           <p>Hier entstehen meine <b>Projekte</b> durch die Verwendung von:</p>
           <ul className='tech-list'>
-            <li><img src={HTML5Icon} alt="html5-icon" className='icon-small' /> <b>HTML</b></li>
-            <li><img src={CSS3Icon} alt="css3-icon" className='icon-small' /> <b>CSS</b></li>
-            <li><img src={TSIcon} alt="typescript-icon" className='icon-small' /> <b>TypeScript</b></li>
-            <li><img src={ReactIcon} alt="react-icon" className='icon-small' /> <b>React</b></li>
-            <li><img src={ViteIcon} alt="vite-icon" className='icon-small' /> <b>Vite</b></li>
-            <li><img src={FirebaseIcon} alt="firebase-icon" className='icon-small' /> <b>Firebase</b></li>
-            {/* <li><img src={GitHubIcon} alt="firebase-icon" className='icon-small' /> <b>GitHub</b></li> */}
+            {techList.map((entry) => (
+              <li><img src={entry.icon} alt={entry.title} className='icon-small' /> <b>{entry.title}</b></li>
+            ))}
           </ul>
           <a href='https://github.com/ChrisSulz/CSCode' target="_blank" rel="noopener noreferrer" className="github-link">
             <button className='button-github'>

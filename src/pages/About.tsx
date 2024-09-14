@@ -3,6 +3,9 @@ import { Helmet } from 'react-helmet';
 import portrait from "../images/portrait.jpg";
 
 export default function About() {
+
+  const skills = ["C", "C++", "Java", "Python", "HTML", "CSS", "TypeScript", "React", "Grafikdesign"]
+
   return (
     <>
       <Helmet>
@@ -22,15 +25,7 @@ export default function About() {
               Informatik - Bachelor of Science (B.Sc.)
             </p>
             <div className="about-skills">
-              <span className="skill-tag">C</span>
-              <span className="skill-tag">C++</span>
-              <span className="skill-tag">Java</span>
-              <span className="skill-tag">Python</span>
-              <span className="skill-tag">HTML</span>
-              <span className="skill-tag">CSS</span>
-              <span className="skill-tag">TypeScript</span>
-              <span className="skill-tag">React</span>
-              <span className="skill-tag">Grafikdesign</span>
+              {skills.map((skill) => (<span className="skill-tag">{skill}</span>))}
             </div>
             <p className="about-paragraph">
               Nach meiner erfolgreichen <span className="highlight">Ausbildung zum Einzelhandelskaufmann</span> und dem Nachholen des <span className="highlight">allgemeinen Abiturs</span> verfolgte ich mit Begeisterung mein <span className="highlight">Studium in den Computerwissenschaften</span>.
