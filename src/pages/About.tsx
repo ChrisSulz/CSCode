@@ -4,7 +4,7 @@ import portrait from "../images/portrait.jpg";
 
 export default function About() {
 
-  const skills = ["C", "C++", "Java", "Python", "HTML", "CSS", "TypeScript", "React", "Grafikdesign"]
+  const skills = ["C", "C++", "Java", "Python", "HTML", "CSS", "JavaScript", "TypeScript", "React", "Grafikdesign"]
 
   return (
     <>
